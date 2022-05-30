@@ -1,0 +1,24 @@
+
+
+Hyperlink
+
+1. satu folder
+	jika file berada dalam satu folder, maka file tersebut bisa langsung di link kan(file.html)
+
+2. berbeda folder
+	jika file berbeda folder maka tuliskan (namafolder/file)
+
+3. keluar/masuk ke dalam folder/file berbeda
+	jika file seperti itu maka gunakan 
+	** keluar foler (../nama file)jika langsung file
+						 (../folder/file) jika file yang berbeda berada dalam folder lain
+
+4. Anchor
+	ini di gunakan untuk pindah ke suatu bagian di halaman website dengan cara di klik 
+	* pertama buat lah tag dengan atribut nya menggunakan id
+	** <h1 id="anchor">ini anchor</h1>
+	maka dalam hyperlink di tuliskan
+	** <a href="#anchor"> ini anchor</h1>
+	ketika ketika mengetik link tersebut maka akan di arahkan ke h1 yang mempunya id (anchor)
+
+5. artribut target di gunakan untuk membuka halaman baru pada saat kita mengklik hypelink 
